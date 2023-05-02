@@ -1,0 +1,31 @@
+
+nav {
+    display: flex;
+    background-color: #FFF7ED;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem;
+}
+
+.logo {
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.5846rem;
+}
+.nav__items {
+   
+}
+
+.nav__link {
+    color: #4D4D4D;
+    text-decoration: none;
+}
+
+.nav__link + .nav__link {
+    margin-left: 2rem;
+}
+

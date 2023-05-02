@@ -1,0 +1,31 @@
+.home {
+    background-image: url('../../images/hero-img.png');
+    background-size: cover;
+    padding: 2rem;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #ffffff;
+    width: 90%;
+}
+
+.home__lead {
+    font-size: 3.25rem;
+}
+
+.home__description {
+
+}
+
+.home__btn {
+    background-color: #FF8C38;
+    padding: 1rem 2rem;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+}
