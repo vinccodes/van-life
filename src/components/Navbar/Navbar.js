@@ -7,7 +7,7 @@ const Navbar = () =>{
             <NavLink className="logo" to="/">#vanlife</NavLink>
             <div className="nav__items">
                 <NavLink className="nav__link" to="/about">About</NavLink>
-                <NavLink className="nav__link" path="/vans">Vans</NavLink>
+                <NavLink className="nav__link" to="/vans">Vans</NavLink>
             </div>
         </nav>
     )
